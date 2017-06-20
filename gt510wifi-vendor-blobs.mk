@@ -3,6 +3,7 @@ PROPRIETARY_PATH := vendor/samsung/gt510wifi/proprietary
 PRODUCT_COPY_FILES += \
     $(PROPRIETARY_PATH)/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
     $(PROPRIETARY_PATH)/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    $(PROPRIETARY_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(PROPRIETARY_PATH)/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(PROPRIETARY_PATH)/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(PROPRIETARY_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
