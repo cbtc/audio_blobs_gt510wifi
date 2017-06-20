@@ -6,6 +6,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_PATH)/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(PROPRIETARY_PATH)/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(PROPRIETARY_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    $(PROPRIETARY_PATH)/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     $(PROPRIETARY_PATH)/lib/libaudioroute.so:system/lib/libaudioroute.so \
     $(PROPRIETARY_PATH)/lib/libaudiosa.so:system/lib/libaudiosa.so \
     $(PROPRIETARY_PATH)/lib/libSamsungAudioEngine_SideSync.so:system/lib/libSamsungAudioEngine_SideSync.so \
@@ -22,7 +23,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_PATH)/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
     $(PROPRIETARY_PATH)/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     $(PROPRIETARY_PATH)/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    $(PROPRIETARY_PATH)/proprietarºy/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
+    $(PROPRIETARY_PATH)/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
     $(PROPRIETARY_PATH)/lib/lib_SoundBooster_ver610.so:system/lib/lib_SoundBooster_ver610.so \
     $(PROPRIETARY_PATH)/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     $(PROPRIETARY_PATH)/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
